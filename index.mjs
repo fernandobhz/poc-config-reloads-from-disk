@@ -11,11 +11,6 @@ const die = (...args) => {
   process.exit(1);
 };
 
-async function importFresh(modulePath) {
-  const cacheBustingModulePath = `file://${modulePath}?update=${Date.now()}`;
-  return (await import(cacheBustingModulePath)).default;
-}
-
 setInterval(async () => {
   const config = require("config");
 

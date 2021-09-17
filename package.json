@@ -1,7 +1,6 @@
 {
   "name": "poc-config-reloads-from-disk",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "config": "^3.3.6",
@@ -22,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/fernandobhz/poc-config-reloads-from-disk/issues"
   },
-  "homepage": "https://github.com/fernandobhz/poc-config-reloads-from-disk#readme"
+  "homepage": "https://github.com/fernandobhz/poc-config-reloads-from-disk#readme",
+  "description": ""
 }
